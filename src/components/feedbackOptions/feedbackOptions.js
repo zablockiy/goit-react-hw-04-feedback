@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import shortid from 'shortid';
-import style from './feedbackOptins.module.css';
+import style from './feedbackOptions.module.css';
 
 export default function FeedbackOptions ({options, onLeaveFeedback}) {
   return (
