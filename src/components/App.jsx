@@ -10,7 +10,8 @@ const App =()=>{
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
-  const buttonsName = ['good', 'neutral', 'bad']
+  // const buttonsName = ['good', 'neutral', 'bad']
+  const buttonsName = Object.keys({good, neutral, bad})
 
   const onLeaveFeedback = (e) => {
     const {name} = e.target
